@@ -144,7 +144,6 @@ The model will output predictions and generate plots comparing actual and predic
 
 \*\*Future Work and Improvements\*\*
 
-\--------------------------------
 
 - \*\*Hyperparameter Tuning\*\*: Further optimization of LSTM parameters such as epochs, batch size, and time steps.
 - \*\*Feature Engineering\*\*: Adding more technical indicators or external factors (e.g., macroeconomic indicators) to improve model accuracy.
