@@ -1,16 +1,15 @@
 \*\*NTT Stock Price Prediction Model\*\*
 
-\====================================
+
 
 \*\*Project Overview\*\*
 
-\--------------------
 
 This project involves building a time-series stock price prediction model using NTT stock data. We use Exploratory Data Analysis (EDA) to understand the data, preprocess the data for machine learning, and build a predictive model using \*\*Long Short-Term Memory (LSTM)\*\*, a type of recurrent neural network suited for time-series prediction.
 
 \*\*Requirements\*\*
 
-\----------------
+
 
 - Python 3.7+
 - Libraries:
@@ -31,7 +30,7 @@ Copy code
 
 \*\*Dataset\*\*
 
-\-----------
+
 
 The dataset used contains stock price data of NTT with the following columns:
 
@@ -47,7 +46,6 @@ The data file should be in CSV format (`data.csv`).
 
 \*\*Exploratory Data Analysis (EDA)\*\*
 
-\-----------------------------------
 
 1. \*\*Data Understanding\*\*: We load and inspect the dataset to get an overview of the stock price trends.
 1. \*\*Visualizations\*\*:
@@ -58,7 +56,7 @@ The data file should be in CSV format (`data.csv`).
 
 \*\*Data Preprocessing\*\*
 
-\----------------------
+
 
 The following preprocessing steps were performed:
 
@@ -69,7 +67,6 @@ The following preprocessing steps were performed:
 
 \*\*Modeling: LSTM for Stock Price Prediction\*\*
 
-\---------------------------------------------
 
 \### \*\*Model Selection\*\*
 
@@ -90,13 +87,11 @@ We chose the \*\*LSTM (Long Short-Term Memory)\*\* model for time-series predict
 
 \*\*Evaluation\*\*
 
-\--------------
 
 The model is evaluated using \*\*Root Mean Squared Error (RMSE)\*\*. Additionally, we visualize the predicted vs. actual stock prices to compare model performance.
 
 \*\*Usage Instructions\*\*
 
-\----------------------
 
 1. \*\*Clone the Repository\*\*
 
@@ -134,7 +129,6 @@ The model will output predictions and generate plots comparing actual and predic
 
 \*\*Project Structure\*\*
 
-\---------------------
 
 - `data.csv`: Stock price dataset.
 - `main.py`: Python script for the entire process (EDA, preprocessing, LSTM model training, evaluation).
@@ -143,7 +137,6 @@ The model will output predictions and generate plots comparing actual and predic
 
 \*\*Results and Analysis\*\*
 
-\------------------------
 
 - \*\*Root Mean Squared Error (RMSE)\*\*: The model's RMSE score on the test dataset.
 - \*\*Prediction vs Actual Plot\*\*: A graph that shows how well the model's predictions match the actual stock prices.
