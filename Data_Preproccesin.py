@@ -8,6 +8,10 @@ data['Change rate %'] = data['Change rate %'].str.replace('%', '').astype(float)
 data['Prev_Close_1'] = data['closing price'].shift(1)
 data['Prev_Close_2'] = data['closing price'].shift(2)
 data['Prev_Close_3'] = data['closing price'].shift(3)
+//code is changed
+data['Prev_Close_1'] = data['closing price'].shift(4)
+data['Prev_Close_2'] = data['closing price'].shift(5)
+data['Prev_Close_3'] = data['closing price'].shift(6)
 
 # Drop NaN values created by the shift operation
 data.dropna(inplace=True)
